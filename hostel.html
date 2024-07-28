@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    body
+    {
+        width: 900px;
+        height: 500px;
+    }
+    #logo
+    {
+        background-color: whitesmoke;
+        width: 1310px;
+        height: 120px;
+        background-size: cover;
+    }
+    #logo img{
+        width: 80px;
+        top: 10px;
+        margin-left: 20px;
+        height: 60px;
+        position: absolute;
+    }
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 30px;
+        margin-left: 70px;  
+        position: absolute;   
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;    
+    }
+    h4
+    {
+    color: gray;
+     font-size:18px; 
+     font-weight: lighter;
+     padding-left:30px ;
+     margin-top:20px ;
+     margin-left: 70px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    nav
+    {
+    display: flex;
+    }
+    nav ul{
+        flex-grow: 2;
+        display: inline-block;
+    }
+    nav ul li{
+        
+        flex-grow: 2;
+        display: inline-block;
+        margin-left: 30px;
+        top:-80px ;
+        left: 650px;
+        position: relative;
+    
+    }
+    nav ul li a 
+    {
+        color: black;
+        font-size:13px ;
+        position: relative;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    #form
+    {
+       background-color: orangered;
+       width: 600px;
+       height: 400px; 
+       top: 150px;
+    }
+    #form h1{
+        color: white;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    img{
+        margin-left: 600px;
+        position: absolute;
+        width: 710px;
+       height: 400px;
+       top: 138px;
+    }
+    
+
+</style>
+<body>
+    <div id="hostel"></div>
+    <div id="logo">
+        <img src="https://cdn3.iconfinder.com/data/icons/map/500/hotel-512.png">
+            <h1>E- <span style="color: rgb(236, 105, 57)">HOSTEL</h1><br>
+            <h4>ONLINE HOSTEL MANAGEMENT SYSTEM</h4>
+            </div>
+        <nav>
+<ul>
+    <button style="width: 30px;height: 40px;color: orangered;
+    border-color:orangered;border-radius: 10px;position: absolute;margin-left: 640px;
+    top: 30px;" class="icon"><span class="fa fa-arrow-right"></span></button>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PHOTOS</a></li>
+            <li><a href="#">BOOKING</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </nav>
+        <div id="form">
+            <h1><span style="font-weight: bolder;">BOOK</span> <span style="font-weight: lighter;">A HOSTEL</span></h1>
+        <form class="one">
+                <select style="width: 350px;height: 40px;background-color: white;color: gray;font-size: small;
+                position: absolute;margin-top: 100px;margin-left: 100px;border-color: white;">
+                    <option value="0">Select a Hostel</option>
+                </select><br>
+            </form>
+                <form class="two">
+                    <select style="width: 350px;height: 40px;background-color: white;color: gray;font-size: small;
+                position: absolute;margin-top: 140px;margin-left: 100px;border-color: white;">
+                    <option value="0">Select Date</option>
+                </select><br>
+                </form>
+                <form class="three">
+                    <select style="width: 350px;height: 40px;background-color: white;color: gray;font-size: small;
+                position: absolute;margin-top: 180px;margin-left: 100px;border-color: white;">
+                    <option value="0">Number of Days</option>
+                </select><br><br>
+                <form class="four">
+                    <button style="width: 140px;height: 60px;background-color:orangered;color:whitesmoke;font-size: small;
+                position: absolute;margin-top: 220px;margin-left: 100px;border-radius: 10px;border-color: white;">BOOK NOW</button>
+                </form>
+                
+                    <button style="width: 40px;height: 60px;color: white;background-color: orangered;
+                    border-color:white;border-radius: 10px;position: absolute;margin-left: 250px;
+                    margin-top: 220px;" class="icon"><span class="fa fa-arrow-right"></span></button>
+                </form>
+                </form>
+        
+        </div>
+        <div id="img">
+            <img src="room.jpg" alt="room">
+        </div>
+    </div>
+
+    
+</body>
+</html>
